@@ -26,7 +26,7 @@ const Footer = () => {
           >
             <div className="flex items-center space-x-2 mb-4">
               <MapPin className="h-8 w-8 text-blue-500" />
-              <span className="text-2xl font-bold">Marquee Skydine</span>
+              <span className="text-2xl font-bold">Shadihall Skydine</span>
             </div>
             <p className="text-gray-300 mb-4">
               Experience culinary excellence above the clouds. Where every meal is a celebration and every moment is memorable.
