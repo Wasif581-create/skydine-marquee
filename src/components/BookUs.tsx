@@ -64,7 +64,7 @@ const BookUs: React.FC<BookUsProps> = ({ formData, handleInputChange }) => {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Book Your Experience</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Reserve your table for an unforgettable dining experience at Skydine Marquee
+            Reserve your table for an unforgettable dining experience at Skydine Shadihall
           </p>
         </motion.div>
 
@@ -264,7 +264,7 @@ const BookUs: React.FC<BookUsProps> = ({ formData, handleInputChange }) => {
                 whileTap={{ scale: 0.95 }}
                 onClick={() => {
                    // Create message as a single string with line breaks
-                   let message = 'Hi! I would like to inquire about special event planning at Marquee Skydine.\n\n';
+                   let message = 'Hi! I would like to inquire about special event planning at Shadihall Skydine.\n\n';
                    message += 'Please provide details about your special event packages.';
                    
                    // Use encodeURIComponent for WhatsApp compatibility
