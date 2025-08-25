@@ -73,7 +73,7 @@ const Footer = () => {
           >
             <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
             <div className="space-y-2 text-gray-300">
-              <p>Skyline Fizzagat Swat</p>
+              <p>Skydine Fizzagat Swat</p>
               <p>Swat City</p>
               <motion.p
                 whileHover={{ scale: 1.05 }}
@@ -96,7 +96,7 @@ const Footer = () => {
           className="border-t border-gray-800 mt-8 pt-8 text-center"
         >
           <p className="text-gray-300 flex items-center justify-center space-x-1">
-            <span> 2025 Marquee Skydine. Made with</span>
+            <span> 2025 Shadihall Skydine. Made with</span>
             <Heart className="h-4 w-4 text-red-500 fill-current" />
             <span>for great dining experiences.</span>
           </p>
