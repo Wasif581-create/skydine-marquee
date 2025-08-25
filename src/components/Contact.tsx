@@ -14,7 +14,7 @@ const Contact = () => {
   };
 
   // Swat Skydine location
-  const mapsLink = 'https://maps.app.goo.gl/RFXnM7G4YjCvFhwC6';
+  const mapsLink = 'https://maps.app.goo.gl/QYWxfsx9Ay7njdhJ9';
   // Embed-friendly URL (using query text; embed for maps.app shortlinks is unreliable)
   const embedLink = `https://www.google.com/maps?output=embed&q=${encodeURIComponent('Swat Skydine')}`;
 
