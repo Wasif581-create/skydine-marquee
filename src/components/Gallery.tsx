@@ -64,7 +64,7 @@ const Gallery = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Gallery</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the beauty and elegance of Marquee Skydine through our curated collection of moments
+            Discover the beauty and elegance of Shadihall Skydine through our curated collection of moments
           </p>
         </motion.div>
 
