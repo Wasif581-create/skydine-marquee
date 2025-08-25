@@ -46,7 +46,7 @@ const Header = () => {
             className="flex items-center space-x-2"
           >
             <MapPin className="h-8 w-8 text-blue-600" />
-            <span className="text-2xl font-bold text-blue-600">Skydine Marquee</span>
+            <span className="text-2xl font-bold text-blue-600">Skydine Shadihall</span>
           </motion.div>
 
           {/* Desktop Navigation */}
