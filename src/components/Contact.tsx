@@ -13,19 +13,23 @@ const Contact = () => {
     window.open(whatsappUrl, '_blank');
   };
 
+  // Swat Skydine location
+  const mapsLink = 'https://maps.app.goo.gl/RFXnM7G4YjCvFhwC6';
+  // Embed-friendly URL (using query text; embed for maps.app shortlinks is unreliable)
+  const embedLink = `https://www.google.com/maps?output=embed&q=${encodeURIComponent('Swat Skydine')}`;
+
   const contactInfo = [
     {
       icon: MapPin,
       title: 'Address',
-      details: ['Mall of swat fizagat,Swat'],
-    action: () => window.open('https://maps.google.com', '_blank'),
-
+      details: ['Swat Skydine, Fizagat, Swat'],
+      action: () => window.open(mapsLink, '_blank'),
     },
     {
       icon: Phone,
       title: 'Phone Numbers',
       details: ['+92 301 8153293', '+92 343 0668843'],
-    action: () => handlePhoneClick('+923018153293'),
+      action: () => handlePhoneClick('+923018153293'),
       isWhatsApp: true,
     },
     {
@@ -115,18 +119,27 @@ const Contact = () => {
               className="bg-gray-800 rounded-2xl p-8"
             >
               <h3 className="text-2xl font-bold mb-6">Find Us</h3>
-              <div className="aspect-video bg-gray-700 rounded-lg mb-6 flex items-center justify-center">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  onClick={() => window.open('https://https://maps.app.goo.gl/gAasPuJVzBSpqYt46', '_blank')}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center space-x-2"
-                >
-                  <MapPin className="h-5 w-5" />
-                  <span>Open in Maps</span>
-                </motion.button>
+              <div className="aspect-video rounded-lg overflow-hidden mb-6">
+                <iframe
+                  title="Marquee Skydine Location"
+                  src={embedLink}
+                  width="100%"
+                  height="100%"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full h-full border-0"
+                />
               </div>
-              <p className="text-gray-300">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => window.open(mapsLink, '_blank')}
+                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center space-x-2"
+              >
+                <MapPin className="h-5 w-5" />
+                <span>Open in Maps</span>
+              </motion.button>
+              <p className="text-gray-300 mt-6">
                 Located in the heart of downtown with stunning city views. Valet parking available.
               </p>
             </motion.div>
