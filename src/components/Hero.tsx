@@ -5,7 +5,7 @@ import { Phone, MessageCircle, Star } from 'lucide-react';
 const Hero = () => {
   const handleWhatsAppClick = () => {
     // Create message as a single string with line breaks
-    let message = 'Hi! I would like to know more about Marquee Skydine services.\n\n';
+    let message = 'Hi! I would like to know more about Shadihall Skydine services.\n\n';
     message += 'Please share information about your offerings.';
     
     // Use encodeURIComponent for WhatsApp compatibility
