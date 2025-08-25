@@ -118,7 +118,7 @@ const Contact = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => window.open('https://maps.google.com', '_blank')}
+                  onClick={() => window.open('https://https://maps.app.goo.gl/gAasPuJVzBSpqYt46', '_blank')}
                   className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center space-x-2"
                 >
                   <MapPin className="h-5 w-5" />
