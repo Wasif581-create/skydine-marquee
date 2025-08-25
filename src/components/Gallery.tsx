@@ -7,8 +7,7 @@ const Gallery = () => {
 
   const images = [
     {
-      url: 'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Elegant Dining Setup'
+      url: 'https://maps.app.goo.gl/LNQUDu37Q7DzNFvp8: 'Elegant Dining Setup'
     },
     {
       url: 'https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800',
