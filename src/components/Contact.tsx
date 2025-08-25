@@ -18,7 +18,7 @@ const Contact = () => {
       icon: MapPin,
       title: 'Address',
       details: ['Mall of swat fizagat,Swat'],
-     action: () => window.open('https://maps.app.goo.gl/doY4fXa7zeibBPbi9', '_blank')
+    action: () => window.open('https://maps.google.com', '_blank'),
 
     },
     {
